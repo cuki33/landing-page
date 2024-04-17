@@ -1,0 +1,150 @@
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited { 
+    text-decoration: none; 
+    color:white;
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color: #3882f6;
+  } 
+  a:active { 
+    text-decoration: none; 
+    color: white; 
+ }
+ .header {
+   display: flex;
+   justify-content: space-around;
+
+
+   background-color: #1f2937;
+   color: #f9f2f8;
+ }
+ .headlogo {
+   font-size: 24px;
+   padding-top: 11px;
+ }
+ ul, .header-links {
+    list-style-type: none;
+ }
+ .header-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+ button {
+   color: white;
+   background-color: #3882f6;
+   border-width: 2px;
+   border-color: white;
+   padding: 10px 15px;
+   border-radius: 10px;
+   font-size: 15px;
+   font-weight: 600;
+ }
+ .blue-0 {
+   background-color: #1f2937;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 50px;
+   padding-top: 80px;
+ }
+ .blue-1 {
+color: white;
+width: 400px;
+ } 
+ h1 {
+   font-size: 48px;
+   color: #f9faf8;
+   font-weight: bolder;
+ }
+ .porsche {
+    width: 500px;
+ }
+ .naslov {
+   display: flex;
+   justify-content: center;
+   margin: 40px;
+ }
+ h2 {
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1f2937;
+ }
+ .cars {
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+ }
+ .audi {
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+ }
+ .text {
+    width: 200px;
+    font-size: 18px;
+    font-style: normal;
+ }
+ .quote0 {
+   background-color: #e5e7eb;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 40px;
+ }
+ .quote {
+   padding: 70px 40px;
+   width: 700px;
+ }
+ .quote1 {
+   font-size: 36px;
+   font-weight: lighter;
+   color: #1f2937;
+   font-style: italic;
+ }
+ .h5 {
+   font-size: 18px;
+   display: flex;
+   justify-content: flex-end;
+ }
+ .major {
+  display: flex;
+  justify-content: center;
+ }
+ .sign {
+   padding: 10px;
+   margin: 40px;
+   height: 100px;
+   width: 50%;
+   background-color: #3882f6;
+   border-radius: 30px;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .sign2 {
+line-height: 5px;
+ }
+ .gumb {
+   width: 150px;
+   height: 50px;
+ }
+ .footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    margin-top: auto;
+    color: white;
+ }
+ 
